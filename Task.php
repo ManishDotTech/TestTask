@@ -3,7 +3,7 @@
   /*
  * @function name	: arrayDiffToHtmlTable
  * @arguments		: passed inside function as a parameter
- * @return			: htmlString
+ * @return		: htmlString
  * @created by		: Dot
  * @created on		: 03 Jan 2017
  * @description		: Its purpose to display array difference as an Html string with specific rules
