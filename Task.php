@@ -1,19 +1,14 @@
 <?php
 /*
   /*
- * @function name	: index
- * @purpose			: It purpose
- * @arguments		: none
- * @return			: none
- * @created by		: Dot Team
- * @created on		: NA
- * @description		: NA
+ * @function name	: arrayDiffToHtmlTable
+ * @arguments		: passed inside function as a parameter
+ * @return			: htmlString
+ * @created by		: Dot
+ * @created on		: 03 Jan 2017
+ * @description		: Its purpose to display array difference as an Html string with specific rules
 */
  
- 
- * 
-*/
-
 class TestTask{
 
 function arrayDiffToHtmlTable( $prevArray, $currArray) {
@@ -76,8 +71,6 @@ function arrayDiffToHtmlTable( $prevArray, $currArray) {
 $prevArray = '[{"_id":1,"someKey":"RINGING","meta":{"subKey1":1234,"subKey2":52}}]';
 $currArray = '[{"_id":1,"someKey":"HANGUP","meta":{"subKey1":1234}},{"_id":2,"someKey":"RINGING","meta":{"subKey1":5678,"subKey2":207,"subKey3":52}}]';
 /*-----------------------------*/
-
-
 $taskObj=new TestTask();
 echo $taskObj->arrayDiffToHtmlTable( $prevArray, $currArray);// function called here
 
